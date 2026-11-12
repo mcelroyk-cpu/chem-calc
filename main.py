@@ -1,3 +1,14 @@
+set_website_title("Chemistry Calculator")
+set_site_information(
+    author="Katelyn McElroy",
+    description="Easily conduct calculations during an experiment.",
+    sources="Drafter documentation, CISC LLM - Google Docs.pdf",
+    planning=["Copy of CS1 Final Project 0_ Pick a Problem.docx", "Katelyn McElroy- CS1 Final Project 1_ Design.docx"],
+    links=["https://github.com/mcelroyk-cpu/chem-calc"]
+)
+hide_debug_information()
+set_website_framed(False)
+
 
 from dataclasses import dataclass, field
 from drafter import *
