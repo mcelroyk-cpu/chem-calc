@@ -1,3 +1,8 @@
+
+from dataclasses import dataclass, field
+from drafter import *
+
+
 set_website_title("Chemistry Calculator")
 set_site_information(
     author="Katelyn McElroy",
@@ -9,9 +14,6 @@ set_site_information(
 hide_debug_information()
 set_website_framed(False)
 
-
-from dataclasses import dataclass, field
-from drafter import *
 
 
 # ==================================================
