@@ -11,8 +11,8 @@ set_site_information(
     planning=["Copy of CS1 Final Project 0_ Pick a Problem.docx", "Katelyn McElroy- CS1 Final Project 1_ Design.docx"],
     links=["https://github.com/mcelroyk-cpu/chem-calc"]
 )
-hide_debug_information()
-set_website_framed(False)
+#hide_debug_information()
+#set_website_framed(False)
 
 
 
